@@ -1,0 +1,37 @@
+{
+  "name": "react-toolbox-boilerplate",
+  "version": "1.0.0",
+  "description": "React-Toolbox boilerplate",
+  "author": "Nazari Gonzalez",
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js --colors --profile --progress -p",
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --colors --profile --progress --hot"
+  },
+  "engines": {
+    "node": "4.2.1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.0.15",
+    "babel-core": "^5.5.8",
+    "babel-loader": "^5.1.4",
+    "css-loader": "^0.21.0",
+    "file-loader": "^0.8.4",
+    "history": "^1.13.0",
+    "node-sass": "^3.4.1",
+    "postcss-loader": "^0.7.0",
+    "react": "^0.14.2",
+    "react-addons-test-utils": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-hot-loader": "^1.2.7",
+    "react-router": "^1.0.0-rc4",
+    "react-toolbox": "^0.11.2",
+    "react-transform-catch-errors": "^1.0.0",
+    "react-transform-hmr": "^1.0.1",
+    "redbox-react": "^1.1.1",
+    "sass-loader": "^3.1.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
